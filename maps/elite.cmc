@@ -1,51 +1,64 @@
-BackwardThrustButton                i
-CamTranslateDown                    5
-CamTranslateUp                      2
-CamTranslateZHold                   [
-CamZoomIn                           TAB
-CamZoomOut                          LSHF
-CycleFireGroupNext                  ]
-CycleFireGroupPrevious              [
-CycleNextPanel                      KBPGDN
-CyclePreviousPanel                  KBDEL
-DisableRotationCorrectToggle        r
-EjectAllCargo                       7
-FocusCommsPanel                     w
-FocusLeftPanel                      a
-FocusRadarPanel                     s
-FocusRightPanel                     d
-ForwardThrustButton                 8
-GalaxyMapOpen                       q
-HeadLookPitchDown                   KP2
-HeadLookPitchUp                     KP8
-HeadLookYawLeft                     KP4
-HeadLookYawRight                    KP6
-Hyperspace                          h
-IncreaseEnginesPower                KBHOME
-IncreaseSystemsPower                KBINS
-IncreaseWeaponsPower                KBPGUP
-LandingGearToggle                   5
-MicrophoneMute                      m
-Pause                               z
-QuickCommsPanel                     SPC
-ResetPowerDistribution              KBEND
-ShipSpotLightToggle                 l
-Supercruise                         j
-SystemMapOpen                       e
+// Hidden commands ------------------------
+hShowFPS                            CTL f
+hShowNetworkDetails                 CTL b
+hTakeScreenshot                     F10
+hTakeScreenshotHighRes              ALT F10
+hGameMenu                           ESC
+
+// External commands ----------------------
+eNVidiaShadowPlayRecord             ALT F9
+
+//-----------------------------------------
+// Commands generated from Custom.binds ---
+//-----------------------------------------
+ToggleFlightAssist                  0
 TargetWingman0                      1
 TargetWingman1                      2
+CamTranslateUp                      2
 TargetWingman2                      3
-ToggleCargoScoop                    6
-ToggleFlightAssist                  0
-ToggleReverseThrottleInput          3
-UIFocus                             x
-UI_Back                             BKSPC
-UI_Down                             KBDOWN
-UI_Left                             KBLEFT
-UI_Right                            KBRIGHT
-UI_Select                           ENT
-UI_Up                               KBUP
-UseBoostJuice                       TAB
 WingNavLock                         4
-YawLeftButton                       u
+LandingGearToggle                   5
+CamTranslateDown                    5
+ToggleCargoScoop                    6
+EjectAllCargo                       7
+ForwardThrustButton                 8
+UI_Back                             BKSPC
+UI_Select                           ENT
+CyclePreviousPanel                  KBDEL
+UI_Down                             KBDOWN
+ResetPowerDistribution              KBEND
+IncreaseEnginesPower                KBHOME
+IncreaseSystemsPower                KBINS
+UI_Left                             KBLEFT
+CycleNextPanel                      KBPGDN
+IncreaseWeaponsPower                KBPGUP
+UI_Right                            KBRIGHT
+UI_Up                               KBUP
+HeadLookPitchDown                   KP2
+HeadLookYawLeft                     KP4
+HeadLookYawRight                    KP6
+HeadLookPitchUp                     KP8
+CamZoomOut                          LSHF
+ToggleReverseThrottleInput          LSHF 3
+QuickCommsPanel                     SPC
+UseBoostJuice                       TAB
+CamZoomIn                           TAB
+CycleFireGroupPrevious              [
+CamTranslateZHold                   [
+CycleFireGroupNext                  ]
+FocusLeftPanel                      a
+FocusRightPanel                     d
+SystemMapOpen                       e
+Hyperspace                          h
+BackwardThrustButton                i
+Supercruise                         j
+ShipSpotLightToggle                 l
+MicrophoneMute                      m
 YawRightButton                      o
+GalaxyMapOpen                       q
+DisableRotationCorrectToggle        r
+FocusRadarPanel                     s
+YawLeftButton                       u
+FocusCommsPanel                     w
+UIFocus                             x
+Pause                               z
