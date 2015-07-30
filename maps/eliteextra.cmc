@@ -1,0 +1,9 @@
+// Hidden commands ------------------------
+hShowFPS                            CTL f
+hShowNetworkDetails                 CTL b
+hTakeScreenshot                     F10
+hTakeScreenshotHighRes              ALT F10
+hGameMenu                           ESC
+
+// External commands ----------------------
+eNVidiaShadowPlayRecord             ALT F9
