@@ -1,3 +1,75 @@
+// Commands mapped to keys ----------------------------------------------------
+BackwardThrustButton                i
+CamTranslateDown                    5
+CamTranslateUp                      2
+CamTranslateZHold                   [
+CamZoomIn                           TAB
+CamZoomOut                          LSHF
+CycleFireGroupNext                  ]
+CycleFireGroupPrevious              [
+CycleNextPanel                      KBPGDN
+CyclePreviousPanel                  KBDEL
+DisableRotationCorrectToggle        r
+EjectAllCargo                       7
+FocusCommsPanel                     w
+FocusLeftPanel                      a
+FocusRadarPanel                     s
+FocusRightPanel                     d
+ForwardThrustButton                 8
+GalaxyMapOpen                       q
+HeadLookPitchDown                   KP2
+HeadLookPitchUp                     KP8
+HeadLookYawLeft                     KP4
+HeadLookYawRight                    KP6
+Hyperspace                          h
+IncreaseEnginesPower                KBHOME
+IncreaseSystemsPower                KBINS
+IncreaseWeaponsPower                KBPGUP
+LandingGearToggle                   5
+MicrophoneMute                      m
+Pause                               z
+QuickCommsPanel                     SPC
+ResetPowerDistribution              KBEND
+ShipSpotLightToggle                 l
+Supercruise                         j
+SystemMapOpen                       e
+TargetWingman0                      1
+TargetWingman1                      2
+TargetWingman2                      3
+ToggleCargoScoop                    6
+ToggleFlightAssist                  0
+ToggleReverseThrottleInput          LSHF 3
+UIFocus                             x
+UI_Back                             BKSPC
+UI_Down                             KBDOWN
+UI_Left                             KBLEFT
+UI_Right                            KBRIGHT
+UI_Select                           ENT
+UI_Up                               KBUP
+UseBoostJuice                       TAB
+WingNavLock                         4
+YawLeftButton                       u
+YawRightButton                      o
+
+// Macros ---------------------------------------------------------------------
+mHeadLookDownLeft                   HOLD KP2 KP4
+mHeadLookDownRight                  HOLD KP2 KP6
+mHeadLookUpLeft                     HOLD KP8 KP4
+mHeadLookUpRight                    HOLD KP8 KP6
+mPowerPresetEngines1                KBEND CHARDLY KBHOME CHARDLY KBHOME CHARDLY KBINS CHARDLY KBHOME
+mPowerPresetEngines2                KBEND CHARDLY KBHOME CHARDLY KBHOME
+mPowerPresetEngines3                KBEND CHARDLY KBHOME CHARDLY KBHOME CHARDLY KBINS CHARDLY KBPGUP
+mPowerPresetMisc1                   KBEND CHARDLY KBPGUP CHARDLY KBHOME
+mPowerPresetMisc2                   KBEND CHARDLY KBINS CHARDLY KBPGUP
+mPowerPresetMisc3                   KBEND CHARDLY KBINS CHARDLY KBHOME
+mPowerPresetSystems1                KBEND CHARDLY KBINS CHARDLY KBINS CHARDLY KBHOME CHARDLY KBINS
+mPowerPresetSystems2                KBEND CHARDLY KBINS CHARDLY KBINS
+mPowerPresetSystems3                KBEND CHARDLY KBINS CHARDLY KBINS CHARDLY KBHOME CHARDLY KBPGUP
+mPowerPresetWeapons1                KBEND CHARDLY KBPGUP CHARDLY KBPGUP CHARDLY KBHOME CHARDLY KBPGUP
+mPowerPresetWeapons2                KBEND CHARDLY KBPGUP CHARDLY KBPGUP
+mPowerPresetWeapons3                KBEND CHARDLY KBPGUP CHARDLY KBPGUP CHARDLY KBHOME CHARDLY KBINS
+
+// Extra commands -------------------------------------------------------------
 // Hidden commands ------------------------
 hShowFPS                            CTL f
 hShowNetworkDetails                 CTL b
@@ -8,57 +80,121 @@ hGameMenu                           ESC
 // External commands ----------------------
 eNVidiaShadowPlayRecord             ALT F9
 
-//-----------------------------------------
-// Commands generated from Custom.binds ---
-//-----------------------------------------
-ToggleFlightAssist                  0
-TargetWingman0                      1
-TargetWingman1                      2
-CamTranslateUp                      2
-TargetWingman2                      3
-WingNavLock                         4
-LandingGearToggle                   5
-CamTranslateDown                    5
-ToggleCargoScoop                    6
-EjectAllCargo                       7
-ForwardThrustButton                 8
-UI_Back                             BKSPC
-UI_Select                           ENT
-CyclePreviousPanel                  KBDEL
-UI_Down                             KBDOWN
-ResetPowerDistribution              KBEND
-IncreaseEnginesPower                KBHOME
-IncreaseSystemsPower                KBINS
-UI_Left                             KBLEFT
-CycleNextPanel                      KBPGDN
-IncreaseWeaponsPower                KBPGUP
-UI_Right                            KBRIGHT
-UI_Up                               KBUP
-HeadLookPitchDown                   KP2
-HeadLookYawLeft                     KP4
-HeadLookYawRight                    KP6
-HeadLookPitchUp                     KP8
-CamZoomOut                          LSHF
-ToggleReverseThrottleInput          LSHF 3
-QuickCommsPanel                     SPC
-UseBoostJuice                       TAB
-CamZoomIn                           TAB
-CycleFireGroupPrevious              [
-CamTranslateZHold                   [
-CycleFireGroupNext                  ]
-FocusLeftPanel                      a
-FocusRightPanel                     d
-SystemMapOpen                       e
-Hyperspace                          h
-BackwardThrustButton                i
-Supercruise                         j
-ShipSpotLightToggle                 l
-MicrophoneMute                      m
-YawRightButton                      o
-GalaxyMapOpen                       q
-DisableRotationCorrectToggle        r
-FocusRadarPanel                     s
-YawLeftButton                       u
-FocusCommsPanel                     w
-UIFocus                             x
-Pause                               z
+
+// Commands mapped to joystick buttons ----------------------------------------
+// CycleNextHostileTarget              Joy_14
+// CycleNextSubsystem                  Joy_17
+// CycleNextTarget                     Joy_18
+// CyclePreviousHostileTarget          Joy_16
+// CyclePreviousSubsystem              Joy_19
+// CyclePreviousTarget                 Joy_20
+// DeployHardpointToggle               Joy_5
+// DeployHeatSink                      Joy_11
+// FireChaffLauncher                   Joy_9
+// HeadLookReset                       Joy_29
+// HeadLookToggle                      Joy_30
+// OculusReset                         Joy_32
+// PhotoCameraToggle                   Joy_31
+// PrimaryFire                         Joy_1
+// SecondaryFire                       Joy_2
+// SelectHighestThreat                 Joy_15
+// SelectTarget                        Joy_13
+// SelectTargetsTarget                 Joy_21
+// TargetNextRouteSystem               Joy_23
+// ToggleButtonUpInput                 Joy_8
+// UseShieldCell                       Joy_10
+
+// Commands not mapped --------------------------------------------------------
+// AheadThrust
+// AheadThrust_Landing
+// BackwardKey
+// BackwardThrustButton_Landing
+// CamPitchAxis
+// CamPitchDown
+// CamPitchUp
+// CamTranslateBackward
+// CamTranslateForward
+// CamTranslateLeft
+// CamTranslateRight
+// CamTranslateXAxis
+// CamTranslateYAxis
+// CamTranslateZAxis
+// CamYawAxis
+// CamYawLeft
+// CamYawRight
+// CamZoomAxis
+// DeployHardpointsOnFire
+// DownThrustButton
+// DownThrustButton_Landing
+// FocusOnTextEntryField
+// ForwardKey
+// ForwardThrustButton_Landing
+// GunsightSystem
+// HeadLookPitchAxisRaw
+// HeadLookYawAxis
+// HeadlookDefault
+// HeadlookIncrement
+// HeadlookMode
+// HeadlookResetOnToggle
+// HeadlookSensitivity
+// HyperSuperCombination
+// KeyboardLayout
+// LateralThrust
+// LateralThrust_Landing
+// LeftThrustButton
+// LeftThrustButton_Landing
+// MouseDeadzone
+// MouseDecayRate
+// MouseGUI
+// MouseHeadlook
+// MouseHeadlookInvert
+// MouseHeadlookSensitivity
+// MouseLinearity
+// MouseReset
+// MouseSensitivity
+// MouseXDecay
+// MouseXMode
+// MouseYDecay
+// MouseYMode
+// PitchAxis
+// PitchAxis_Landing
+// PitchDownButton
+// PitchDownButton_Landing
+// PitchUpButton
+// PitchUpButton_Landing
+// RadarDecreaseRange
+// RadarIncreaseRange
+// RadarRangeAxis
+// RightThrustButton
+// RightThrustButton_Landing
+// RollAxis
+// RollAxis_Landing
+// RollLeftButton
+// RollLeftButton_Landing
+// RollRightButton
+// RollRightButton_Landing
+// SetSpeed100
+// SetSpeed25
+// SetSpeed50
+// SetSpeed75
+// SetSpeedMinus100
+// SetSpeedMinus25
+// SetSpeedMinus50
+// SetSpeedMinus75
+// SetSpeedZero
+// ThrottleAxis
+// ThrottleIncrement
+// ThrottleRange
+// UIFocusMode
+// UpThrustButton
+// UpThrustButton_Landing
+// VerticalThrust
+// VerticalThrust_Landing
+// YawAxis
+// YawAxis_Landing
+// YawLeftButton_Landing
+// YawRightButton_Landing
+// YawToRollButton
+// YawToRollMode
+// YawToRollMode_Landing
+// YawToRollSensitivity
