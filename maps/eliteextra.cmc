@@ -7,3 +7,4 @@ hGameMenu                           ESC
 
 // External commands ----------------------
 eNVidiaShadowPlayRecord             ALT F9
+eResetEDTracker                     F11
