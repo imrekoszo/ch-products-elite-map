@@ -2,29 +2,29 @@
 <Root PresetName="Custom">
 	<KeyboardLayout>en-GB</KeyboardLayout>
 	<MouseXMode Value="" />
-	<MouseXDecay Value="1" />
+	<MouseXDecay Value="0" />
 	<MouseYMode Value="" />
-	<MouseYDecay Value="1" />
+	<MouseYDecay Value="0" />
 	<MouseReset>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MouseReset>
-	<MouseSensitivity Value="0.20369379" />
+	<MouseSensitivity Value="1.00000000" />
 	<MouseDecayRate Value="4.00000000" />
-	<MouseDeadzone Value="0.04742857" />
+	<MouseDeadzone Value="0.05000000" />
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="0" />
-	<YawAxis>
-		<Binding Device="068EC010" Key="Joy_UAxis" />
+	<YawAxisRaw>
+		<Binding Device="068EC012" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
-	</YawAxis>
+	</YawAxisRaw>
 	<YawLeftButton>
-		<Primary Device="Keyboard" Key="Key_U" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawLeftButton>
 	<YawRightButton>
-		<Primary Device="Keyboard" Key="Key_O" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawRightButton>
 	<YawToRollMode Value="Bindings_YawIntoRollNone" />
@@ -32,13 +32,13 @@
 	<YawToRollButton>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="1" />
+		<ToggleOn Value="0" />
 	</YawToRollButton>
-	<RollAxis>
+	<RollAxisRaw>
 		<Binding Device="068EC010" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
-	</RollAxis>
+	</RollAxisRaw>
 	<RollLeftButton>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -47,11 +47,11 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RollRightButton>
-	<PitchAxis>
+	<PitchAxisRaw>
 		<Binding Device="068EC010" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
-	</PitchAxis>
+	</PitchAxisRaw>
 	<PitchUpButton>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -60,11 +60,11 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchDownButton>
-	<LateralThrust>
-		<Binding Device="068EC010" Key="Joy_RZAxis" />
+	<LateralThrustRaw>
+		<Binding Device="068EC011" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
-	</LateralThrust>
+	</LateralThrustRaw>
 	<LeftThrustButton>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -73,11 +73,11 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RightThrustButton>
-	<VerticalThrust>
-		<Binding Device="068EC010" Key="Joy_RYAxis" />
+	<VerticalThrustRaw>
+		<Binding Device="068EC011" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
-	</VerticalThrust>
+	</VerticalThrustRaw>
 	<UpThrustButton>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -92,23 +92,21 @@
 		<Deadzone Value="0.00000000" />
 	</AheadThrust>
 	<ForwardThrustButton>
-		<Primary Device="Keyboard" Key="Key_8" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ForwardThrustButton>
 	<BackwardThrustButton>
-		<Primary Device="Keyboard" Key="Key_I" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton>
 	<ThrottleAxis>
-		<Binding Device="068EC010" Key="Joy_ZAxis" />
+		<Binding Device="068EC011" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
 	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
-		<Primary Device="Keyboard" Key="Key_3">
-			<Modifier Device="Keyboard" Key="Key_LeftShift" />
-		</Primary>
+		<Primary Device="Keyboard" Key="Key_Q" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</ToggleReverseThrottleInput>
@@ -237,9 +235,9 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BackwardThrustButton_Landing>
 	<ToggleFlightAssist>
-		<Primary Device="Keyboard" Key="Key_0" />
+		<Primary Device="Keyboard" Key="Key_W" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
+		<ToggleOn Value="1" />
 	</ToggleFlightAssist>
 	<UseBoostJuice>
 		<Primary Device="Keyboard" Key="Key_Tab" />
@@ -250,73 +248,73 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HyperSuperCombination>
 	<Supercruise>
-		<Primary Device="Keyboard" Key="Key_J" />
+		<Primary Device="Keyboard" Key="Key_E" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Supercruise>
 	<Hyperspace>
-		<Primary Device="Keyboard" Key="Key_H" />
+		<Primary Device="Keyboard" Key="Key_R" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
-		<Primary Device="Keyboard" Key="Key_R" />
+		<Primary Device="Keyboard" Key="Key_T" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</DisableRotationCorrectToggle>
 	<SelectTarget>
-		<Primary Device="068EC010" Key="Joy_13" />
+		<Primary Device="Keyboard" Key="Key_Y" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTarget>
 	<CycleNextTarget>
-		<Primary Device="068EC010" Key="Joy_18" />
+		<Primary Device="Keyboard" Key="Key_U" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextTarget>
 	<CyclePreviousTarget>
-		<Primary Device="068EC010" Key="Joy_20" />
+		<Primary Device="Keyboard" Key="Key_I" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousTarget>
 	<SelectHighestThreat>
-		<Primary Device="068EC010" Key="Joy_15" />
+		<Primary Device="Keyboard" Key="Key_O" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectHighestThreat>
 	<CycleNextHostileTarget>
-		<Primary Device="068EC010" Key="Joy_14" />
+		<Primary Device="Keyboard" Key="Key_P" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextHostileTarget>
 	<CyclePreviousHostileTarget>
-		<Primary Device="068EC010" Key="Joy_16" />
+		<Primary Device="Keyboard" Key="Key_A" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousHostileTarget>
 	<TargetWingman0>
-		<Primary Device="Keyboard" Key="Key_1" />
+		<Primary Device="Keyboard" Key="Key_S" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman0>
 	<TargetWingman1>
-		<Primary Device="Keyboard" Key="Key_2" />
+		<Primary Device="Keyboard" Key="Key_D" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman1>
 	<TargetWingman2>
-		<Primary Device="Keyboard" Key="Key_3" />
+		<Primary Device="Keyboard" Key="Key_F" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetWingman2>
 	<SelectTargetsTarget>
-		<Primary Device="068EC010" Key="Joy_21" />
+		<Primary Device="Keyboard" Key="Key_G" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SelectTargetsTarget>
 	<WingNavLock>
-		<Primary Device="Keyboard" Key="Key_4" />
+		<Primary Device="Keyboard" Key="Key_H" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</WingNavLock>
 	<CycleNextSubsystem>
-		<Primary Device="068EC010" Key="Joy_17" />
+		<Primary Device="Keyboard" Key="Key_J" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextSubsystem>
 	<CyclePreviousSubsystem>
-		<Primary Device="068EC010" Key="Joy_19" />
+		<Primary Device="Keyboard" Key="Key_K" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
 	<GunsightSystem />
 	<TargetNextRouteSystem>
-		<Primary Device="068EC010" Key="Joy_23" />
+		<Primary Device="Keyboard" Key="Key_L" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
@@ -324,37 +322,37 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="068EC010" Key="Joy_2" />
+		<Primary Device="068EC010" Key="Joy_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
-		<Primary Device="Keyboard" Key="Key_RightBracket" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupNext>
 	<CycleFireGroupPrevious>
-		<Primary Device="Keyboard" Key="Key_LeftBracket" />
+		<Primary Device="Keyboard" Key="Key_X" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleFireGroupPrevious>
 	<DeployHardpointToggle>
-		<Primary Device="068EC010" Key="Joy_5" />
+		<Primary Device="Keyboard" Key="Key_C" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHardpointToggle>
 	<DeployHardpointsOnFire Value="1" />
 	<ToggleButtonUpInput>
-		<Primary Device="068EC010" Key="Joy_8" />
+		<Primary Device="Keyboard" Key="Key_V" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleButtonUpInput>
 	<DeployHeatSink>
-		<Primary Device="068EC010" Key="Joy_11" />
+		<Primary Device="Keyboard" Key="Key_B" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</DeployHeatSink>
 	<ShipSpotLightToggle>
-		<Primary Device="Keyboard" Key="Key_L" />
+		<Primary Device="Keyboard" Key="Key_N" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
-		<Binding Device="068EC010" Key="Joy_RXAxis" />
+		<Binding Device="068EC010" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
@@ -367,32 +365,32 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
-		<Primary Device="Keyboard" Key="Key_Home" />
+		<Primary Device="Keyboard" Key="Key_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseEnginesPower>
 	<IncreaseWeaponsPower>
-		<Primary Device="Keyboard" Key="Key_PageUp" />
+		<Primary Device="Keyboard" Key="Key_3" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseWeaponsPower>
 	<IncreaseSystemsPower>
-		<Primary Device="Keyboard" Key="Key_Insert" />
+		<Primary Device="Keyboard" Key="Key_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</IncreaseSystemsPower>
 	<ResetPowerDistribution>
-		<Primary Device="Keyboard" Key="Key_End" />
+		<Primary Device="Keyboard" Key="Key_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ResetPowerDistribution>
 	<OculusReset>
-		<Primary Device="068EC010" Key="Joy_32" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</OculusReset>
 	<ToggleCargoScoop>
-		<Primary Device="Keyboard" Key="Key_6" />
+		<Primary Device="Keyboard" Key="Key_M" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</ToggleCargoScoop>
 	<EjectAllCargo>
-		<Primary Device="Keyboard" Key="Key_7" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo>
 	<LandingGearToggle>
@@ -400,63 +398,64 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</LandingGearToggle>
 	<MicrophoneMute>
-		<Primary Device="Keyboard" Key="Key_M" />
+		<Primary Device="Keyboard" Key="Key_6" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="0" />
 	</MicrophoneMute>
+	<MuteButtonMode Value="mute_toggle" />
 	<UseShieldCell>
-		<Primary Device="068EC010" Key="Joy_10" />
+		<Primary Device="Keyboard" Key="Key_7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UseShieldCell>
 	<FireChaffLauncher>
-		<Primary Device="068EC010" Key="Joy_9" />
+		<Primary Device="Keyboard" Key="Key_8" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
 	<PhotoCameraToggle>
-		<Primary Device="068EC010" Key="Joy_31" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle>
-	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<UIFocus>
-		<Primary Device="Keyboard" Key="Key_X" />
+		<Primary Device="Keyboard" Key="Key_Numpad_8" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UIFocus>
+	<UIFocusMode Value="Bindings_FocusModeHold" />
 	<FocusLeftPanel>
-		<Primary Device="Keyboard" Key="Key_A" />
+		<Primary Device="Keyboard" Key="Key_Numpad_4" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusLeftPanel>
-	<FocusRightPanel>
-		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</FocusRightPanel>
-	<FocusRadarPanel>
-		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</FocusRadarPanel>
-	<QuickCommsPanel>
-		<Primary Device="Keyboard" Key="Key_Space" />
-		<Secondary Device="{NoDevice}" Key="" />
-	</QuickCommsPanel>
 	<FocusCommsPanel>
-		<Primary Device="Keyboard" Key="Key_W" />
+		<Primary Device="Keyboard" Key="Key_Numpad_7" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
-	<FocusOnTextEntryField Value="0" />
+	<FocusOnTextEntryField Value="1" />
+	<QuickCommsPanel>
+		<Primary Device="Keyboard" Key="Key_Numpad_9" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</QuickCommsPanel>
+	<FocusRadarPanel>
+		<Primary Device="Keyboard" Key="Key_Numpad_5" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</FocusRadarPanel>
+	<FocusRightPanel>
+		<Primary Device="Keyboard" Key="Key_Numpad_6" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</FocusRightPanel>
+	<EnableCameraLockOn Value="1" />
 	<GalaxyMapOpen>
-		<Primary Device="Keyboard" Key="Key_Q" />
+		<Primary Device="Keyboard" Key="Key_Comma" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapOpen>
 	<SystemMapOpen>
-		<Primary Device="Keyboard" Key="Key_E" />
+		<Primary Device="Keyboard" Key="Key_Period" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SystemMapOpen>
 	<HeadLookToggle>
-		<Primary Device="068EC010" Key="Joy_30" />
+		<Primary Device="Keyboard" Key="Key_Numpad_Add" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</HeadLookToggle>
 	<Pause>
-		<Primary Device="Keyboard" Key="Key_Z" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</Pause>
 	<UI_Up>
@@ -484,11 +483,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Back>
 	<CycleNextPanel>
-		<Primary Device="Keyboard" Key="Key_PageDown" />
+		<Primary Device="Keyboard" Key="Key_Numpad_Multiply" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CycleNextPanel>
 	<CyclePreviousPanel>
-		<Primary Device="Keyboard" Key="Key_Delete" />
+		<Primary Device="Keyboard" Key="Key_Numpad_Divide" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousPanel>
 	<MouseHeadlook Value="0" />
@@ -496,41 +495,41 @@
 	<MouseHeadlookSensitivity Value="0.50000000" />
 	<HeadlookDefault Value="1" />
 	<HeadlookIncrement Value="0.00000000" />
-	<HeadlookMode Value="Bindings_HeadlookModeAccumulate" />
+	<HeadlookMode Value="Bindings_HeadlookModeDirect" />
 	<HeadlookResetOnToggle Value="1" />
 	<HeadlookSensitivity Value="1.00000000" />
 	<HeadLookReset>
-		<Primary Device="068EC010" Key="Joy_29" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookReset>
 	<HeadLookPitchUp>
-		<Primary Device="Keyboard" Key="Key_Numpad_8" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchUp>
 	<HeadLookPitchDown>
-		<Primary Device="Keyboard" Key="Key_Numpad_2" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="16D00AEA" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
 	<HeadLookYawLeft>
-		<Primary Device="Keyboard" Key="Key_Numpad_4" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawLeft>
 	<HeadLookYawRight>
-		<Primary Device="Keyboard" Key="Key_Numpad_6" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="16D00AEA" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
 	<CamPitchAxis>
-		<Binding Device="068EC010" Key="Joy_YAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamPitchAxis>
@@ -543,7 +542,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
-		<Binding Device="068EC010" Key="Joy_XAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
@@ -556,8 +555,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="068EC010" Key="Joy_RYAxis" />
-		<Inverted Value="1" />
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
@@ -569,7 +568,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="068EC010" Key="Joy_RZAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
@@ -587,11 +586,11 @@
 		<Deadzone Value="0.00000000" />
 	</CamTranslateZAxis>
 	<CamTranslateUp>
-		<Primary Device="Keyboard" Key="Key_2" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateUp>
 	<CamTranslateDown>
-		<Primary Device="Keyboard" Key="Key_5" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamTranslateDown>
 	<CamZoomAxis>
@@ -600,16 +599,16 @@
 		<Deadzone Value="0.00000000" />
 	</CamZoomAxis>
 	<CamZoomIn>
-		<Primary Device="Keyboard" Key="Key_Tab" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamZoomIn>
 	<CamZoomOut>
-		<Primary Device="Keyboard" Key="Key_LeftShift" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamZoomOut>
 	<CamTranslateZHold>
-		<Primary Device="Keyboard" Key="Key_LeftBracket" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
-		<ToggleOn Value="1" />
+		<ToggleOn Value="0" />
 	</CamTranslateZHold>
 </Root>
