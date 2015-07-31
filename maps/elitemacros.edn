@@ -12,9 +12,4 @@
 
  :mPowerPresetSystems1 [:ResetPowerDistribution CHARDLY :IncreaseSystemsPower CHARDLY :IncreaseSystemsPower CHARDLY :IncreaseEnginesPower CHARDLY :IncreaseSystemsPower]
  :mPowerPresetSystems2 [:ResetPowerDistribution CHARDLY :IncreaseSystemsPower CHARDLY :IncreaseSystemsPower]
- :mPowerPresetSystems3 [:ResetPowerDistribution CHARDLY :IncreaseSystemsPower CHARDLY :IncreaseSystemsPower CHARDLY :IncreaseEnginesPower CHARDLY :IncreaseWeaponsPower]
-
- :mHeadLookUpRight [HOLD :HeadLookPitchUp :HeadLookYawRight]
- :mHeadLookDownRight [HOLD :HeadLookPitchDown :HeadLookYawRight]
- :mHeadLookDownLeft [HOLD :HeadLookPitchDown :HeadLookYawLeft]
- :mHeadLookUpLeft [HOLD :HeadLookPitchUp :HeadLookYawLeft]}
+ :mPowerPresetSystems3 [:ResetPowerDistribution CHARDLY :IncreaseSystemsPower CHARDLY :IncreaseSystemsPower CHARDLY :IncreaseEnginesPower CHARDLY :IncreaseWeaponsPower]}
