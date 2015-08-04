@@ -1,4 +1,9 @@
 // Commands mapped to keys ----------------------------------------------------
+CamTranslateDown                    m
+CamTranslateUp                      d
+CamTranslateZHold                   x
+CamZoomIn                           TAB
+CamZoomOut                          q
 CycleFireGroupNext                  z
 CycleFireGroupPrevious              x
 CycleNextHostileTarget              p
@@ -93,21 +98,16 @@ eResetEDTracker                     F11
 // CamPitchDown
 // CamPitchUp
 // CamTranslateBackward
-// CamTranslateDown
 // CamTranslateForward
 // CamTranslateLeft
 // CamTranslateRight
-// CamTranslateUp
 // CamTranslateXAxis
 // CamTranslateYAxis
 // CamTranslateZAxis
-// CamTranslateZHold
 // CamYawAxis
 // CamYawLeft
 // CamYawRight
 // CamZoomAxis
-// CamZoomIn
-// CamZoomOut
 // DeployHardpointsOnFire
 // DownThrustButton
 // DownThrustButton_Landing
