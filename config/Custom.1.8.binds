@@ -389,7 +389,7 @@
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
 		<Binding Device="068EC010" Key="Joy_ZAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
@@ -401,25 +401,25 @@
 		<Secondary Device="Keyboard" Key="Key_PageDown" />
 	</RadarDecreaseRange>
 	<IncreaseEnginesPower>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_UpArrow" />
 		<Secondary Device="Keyboard" Key="Key_W">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Secondary>
 	</IncreaseEnginesPower>
 	<IncreaseWeaponsPower>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_RightArrow" />
 		<Secondary Device="Keyboard" Key="Key_D">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Secondary>
 	</IncreaseWeaponsPower>
 	<IncreaseSystemsPower>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_LeftArrow" />
 		<Secondary Device="Keyboard" Key="Key_A">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Secondary>
 	</IncreaseSystemsPower>
 	<ResetPowerDistribution>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_DownArrow" />
 		<Secondary Device="Keyboard" Key="Key_S">
 			<Modifier Device="Keyboard" Key="Key_LeftShift" />
 		</Secondary>
@@ -472,7 +472,7 @@
 		<Primary Device="Keyboard" Key="Key_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FocusCommsPanel>
-	<FocusOnTextEntryField Value="1" />
+	<FocusOnTextEntryField Value="0" />
 	<QuickCommsPanel>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -583,7 +583,7 @@
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
 	<CamPitchAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamPitchAxis>
@@ -596,7 +596,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
@@ -653,11 +653,11 @@
 		<Deadzone Value="0.00000000" />
 	</CamZoomAxis>
 	<CamZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_1" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamZoomIn>
 	<CamZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Numpad_2" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamZoomOut>
 	<CamTranslateZHold>
