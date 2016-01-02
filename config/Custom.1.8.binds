@@ -12,8 +12,8 @@
 	</MouseReset>
 	<MouseSensitivity Value="1.14938831" />
 	<MouseDecayRate Value="1.00000000" />
-	<MouseDeadzone Value="0.03267374" />
-	<MouseLinearity Value="2.22788143" />
+	<MouseDeadzone Value="0.04616183" />
+	<MouseLinearity Value="2.44996977" />
 	<MouseGUI Value="1" />
 	<YawAxisRaw>
 		<Binding Device="068EC012" Key="Joy_ZAxis" />
@@ -37,7 +37,7 @@
 	</YawToRollButton>
 	<RollAxisRaw>
 		<Binding Device="068EC010" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollAxisRaw>
 	<RollLeftButton>
@@ -50,7 +50,7 @@
 	</RollRightButton>
 	<PitchAxisRaw>
 		<Binding Device="068EC010" Key="Joy_YAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchAxisRaw>
 	<PitchUpButton>
@@ -63,7 +63,7 @@
 	</PitchDownButton>
 	<LateralThrustRaw>
 		<Binding Device="068EC011" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</LateralThrustRaw>
 	<LeftThrustButton>
@@ -89,7 +89,7 @@
 	</DownThrustButton>
 	<AheadThrust>
 		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</AheadThrust>
 	<ForwardThrustButton>
@@ -132,7 +132,7 @@
 	</UseAlternateFlightValuesToggle>
 	<ThrottleAxis>
 		<Binding Device="068EC011" Key="Joy_ZAxis" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
 	<ThrottleRange Value="" />
@@ -167,7 +167,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedMinus25>
 	<SetSpeedZero>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_X" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</SetSpeedZero>
 	<SetSpeed25>
@@ -288,7 +288,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</Hyperspace>
 	<DisableRotationCorrectToggle>
-		<Primary Device="Keyboard" Key="Key_T" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="1" />
 	</DisableRotationCorrectToggle>
@@ -354,11 +354,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</TargetNextRouteSystem>
 	<PrimaryFire>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC010" Key="Joy_1" />
 		<Secondary Device="Mouse" Key="Mouse_1" />
 	</PrimaryFire>
 	<SecondaryFire>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC010" Key="Joy_4" />
 		<Secondary Device="Mouse" Key="Mouse_2" />
 	</SecondaryFire>
 	<CycleFireGroupNext>
@@ -388,8 +388,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="068EC010" Key="Joy_ZAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
 	<RadarIncreaseRange>
@@ -544,7 +544,7 @@
 		<Primary Device="Keyboard" Key="Key_Q" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousPanel>
-	<MouseHeadlook Value="0" />
+	<MouseHeadlook Value="1" />
 	<MouseHeadlookInvert Value="0" />
 	<MouseHeadlookSensitivity Value="0.50000000" />
 	<HeadlookDefault Value="1" />
@@ -565,7 +565,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookPitchDown>
 	<HeadLookPitchAxisRaw>
-		<Binding Device="16D00AEA" Key="Joy_YAxis" />
+		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookPitchAxisRaw>
@@ -578,8 +578,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadLookYawRight>
 	<HeadLookYawAxis>
-		<Binding Device="16D00AEA" Key="Joy_XAxis" />
-		<Inverted Value="1" />
+		<Binding Device="{NoDevice}" Key="" />
+		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</HeadLookYawAxis>
 	<CamPitchAxis>
