@@ -609,43 +609,43 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamYawRight>
 	<CamTranslateYAxis>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="068EC011" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateYAxis>
 	<CamTranslateForward>
 		<Primary Device="Keyboard" Key="Key_W" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_T" />
 	</CamTranslateForward>
 	<CamTranslateBackward>
 		<Primary Device="Keyboard" Key="Key_S" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_Tab" />
 	</CamTranslateBackward>
 	<CamTranslateXAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC011" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateXAxis>
 	<CamTranslateLeft>
 		<Primary Device="Keyboard" Key="Key_A" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_I" />
 	</CamTranslateLeft>
 	<CamTranslateRight>
 		<Primary Device="Keyboard" Key="Key_D" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_8" />
 	</CamTranslateRight>
 	<CamTranslateZAxis>
 		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CamTranslateZAxis>
 	<CamTranslateUp>
 		<Primary Device="Keyboard" Key="Key_Space" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_F3" />
 	</CamTranslateUp>
 	<CamTranslateDown>
 		<Primary Device="Keyboard" Key="Key_C" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="Keyboard" Key="Key_G" />
 	</CamTranslateDown>
 	<CamZoomAxis>
 		<Binding Device="{NoDevice}" Key="" />
@@ -654,11 +654,11 @@
 	</CamZoomAxis>
 	<CamZoomIn>
 		<Primary Device="Keyboard" Key="Key_Numpad_1" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="068EC010" Key="Joy_1" />
 	</CamZoomIn>
 	<CamZoomOut>
 		<Primary Device="Keyboard" Key="Key_Numpad_2" />
-		<Secondary Device="{NoDevice}" Key="" />
+		<Secondary Device="068EC010" Key="Joy_4" />
 	</CamZoomOut>
 	<CamTranslateZHold>
 		<Primary Device="{NoDevice}" Key="" />
