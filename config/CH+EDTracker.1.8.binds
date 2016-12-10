@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="Custom" MajorVersion="1" MinorVersion="8">
+<Root PresetName="CH+EDTracker" MajorVersion="1" MinorVersion="8">
 	<KeyboardLayout>en-GB</KeyboardLayout>
 	<LockedDevice>{NoDevice}</LockedDevice>
 	<MouseXMode Value="Bindings_MouseYaw" />
@@ -14,7 +14,7 @@
 	<MouseDecayRate Value="1.00000000" />
 	<MouseDeadzone Value="0.04616183" />
 	<MouseLinearity Value="2.44996977" />
-	<MouseGUI Value="1" />
+	<MouseGUI Value="0" />
 	<YawAxisRaw>
 		<Binding Device="068EC012" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
@@ -135,7 +135,7 @@
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
-	<ThrottleRange Value="" />
+	<ThrottleRange Value="Bindings_ThrottleForewardOnly" />
 	<ToggleReverseThrottleInput>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -348,7 +348,6 @@
 		<Primary Device="Keyboard" Key="Key_U" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</CyclePreviousSubsystem>
-	<GunsightSystem />
 	<TargetNextRouteSystem>
 		<Primary Device="Keyboard" Key="Key_F3" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -459,6 +458,7 @@
 		<Primary Device="Keyboard" Key="Key_Numpad_0" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</PhotoCameraToggle>
+	<EnableMenuGroups Value="0" />
 	<UIFocus>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -536,6 +536,10 @@
 		<Primary Device="Keyboard" Key="Key_Backspace" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</UI_Back>
+	<UI_Toggle>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</UI_Toggle>
 	<CycleNextPanel>
 		<Primary Device="Keyboard" Key="Key_E" />
 		<Secondary Device="{NoDevice}" Key="" />
@@ -678,7 +682,7 @@
 	<MouseBuggyYMode Value="" />
 	<MouseBuggyYDecay Value="1" />
 	<SteeringAxis>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC010" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
@@ -691,7 +695,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
-		<Binding Device="{NoDevice}" Key="" />
+		<Binding Device="068EC012" Key="Joy_ZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
@@ -704,8 +708,8 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="068EC010" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
 	<BuggyPitchUpButton>
@@ -717,7 +721,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyPitchDownButton>
 	<VerticalThrustersButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="068EC011" Key="Neg_Joy_YAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</VerticalThrustersButton>
@@ -739,7 +743,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</HeadlightsBuggyButton>
 	<ToggleBuggyTurretButton>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Grave" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleBuggyTurretButton>
 	<SelectTarget_Buggy>
@@ -797,13 +801,13 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</DecreaseSpeedButtonMax>
 	<IncreaseSpeedButtonPartial>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="068EC012" Key="Joy_XAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</IncreaseSpeedButtonPartial>
 	<DecreaseSpeedButtonPartial>
-		<Binding Device="{NoDevice}" Key="" />
-		<Inverted Value="0" />
+		<Binding Device="068EC012" Key="Joy_YAxis" />
+		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</DecreaseSpeedButtonPartial>
 	<IncreaseEnginesPower_Buggy>
@@ -831,6 +835,11 @@
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</EjectAllCargo_Buggy>
+	<PhotoCameraToggle_Buggy>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+		<ToggleOn Value="0" />
+	</PhotoCameraToggle_Buggy>
 	<UIFocus_Buggy>
 		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="{NoDevice}" Key="" />
