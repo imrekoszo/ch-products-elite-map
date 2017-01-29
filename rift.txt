@@ -1,0 +1,37 @@
+mozgatni:
+IncreaseEnginesPower
+IncreaseSystemsPower
+IncreaseWeaponsPower
+
+SelectTarget
+CycleNextSubsystem
+CyclePrevHostileTarget
+CyclePreviousTarget
+CycleNextHostileTarget
+CycleNextTarget
+SelectHighestThreat
+CyclePreviousSubsystem
+
+
+
+
+
+
+nem kell:
+eResetEDTracker
+HeadLookToggle
+hShowFPS
+hShowNetworkDetails
+DisableRotationCorrect
+ShipSpotLightToggle?
+ForwardThrustButton
+
+
+kell:
+FullEnginesPower
+FullSystemsPower
+FullWeaponsPower
+
+hResetHmd?
+hShowDiagnostics (fps + network details)
+hHideHud
