@@ -27,11 +27,23 @@ ShipSpotLightToggle?
 ForwardThrustButton
 
 
+
+
+
+
 kell:
 FullEnginesPower
 FullSystemsPower
 FullWeaponsPower
 
-hResetHmd?
-hShowDiagnostics (fps + network details)
 hHideHud
+hShowDiagnostics (fps + network details)
+
+charge ecm
+
+show cqc score screen?
+
+ui nested toggle
+
+hResetHmd?
+
