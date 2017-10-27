@@ -24,7 +24,7 @@ hShowFPS
 hShowNetworkDetails
 DisableRotationCorrect
 ShipSpotLightToggle?
-ForwardThrustButton
+
 
 
 
@@ -32,11 +32,11 @@ ForwardThrustButton
 
 
 kell:
-FullEnginesPower
-FullSystemsPower
-FullWeaponsPower
+FullEnginesPower (macro)
+FullSystemsPower (macro)
+FullWeaponsPower (macro)
 
-hHideHud
+hHideHud 
 hShowDiagnostics (fps + network details)
 
 charge ecm
@@ -44,6 +44,7 @@ charge ecm
 show cqc score screen?
 
 ui nested toggle
+hUiNestedToggle
 
 hResetHmd?
 

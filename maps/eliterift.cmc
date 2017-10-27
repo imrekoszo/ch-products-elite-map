@@ -1,0 +1,29 @@
+FocusRadarPanel                     KPDEL
+
+CyclePreviousPanel                  KBINS
+CycleNextPanel                      KBPGUP
+
+UI_Back                             BKSPC
+UI_Down                             KBDOWN
+UI_Left                             KBLEFT
+UI_Right                            KBRIGHT
+UI_Select                           ENT
+UI_Up                               KBUP
+UI_Toggle                           KP+
+
+mFullSystemsPower                   KBDEL CHARDLY KBDEL CHARDLY KBDEL CHARDLY KBDEL
+IncreaseSystemsPower                KBDEL
+
+mFullEnginesPower                   KBHOME CHARDLY KBHOME CHARDLY KBHOME CHARDLY KBHOME
+IncreaseEnginesPower                KBHOME
+
+mFullWeaponsPower                   KBPGDN CHARDLY KBPGDN CHARDLY KBPGDN CHARDLY KBPGDN
+IncreaseWeaponsPower                KBPGDN
+
+PhotoCameraToggle                   KP0
+
+hHideHud                            CTL ALT g
+hShowDiagnostics                    CTL f CTL b
+hTakeScreenshot                     F10
+hTakeScreenshotHighRes              ALT F10
+hGameMenu                           ESC
